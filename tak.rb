@@ -5,21 +5,21 @@
 class Tak < Formula
   desc "Git worktree manager with pinning, tmux integration, and lifecycle tools"
   homepage "https://github.com/mzner/tak"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mzner/tak/releases/download/v1.0.0/tak_1.0.0_darwin_amd64.tar.gz"
-      sha256 "3315d7c4d2e72c4d72ad6a09707f83886f19ad8536cf01291b87b381a47bc6b2"
+      url "https://github.com/mzner/tak/releases/download/v1.1.0/tak_1.1.0_darwin_amd64.tar.gz"
+      sha256 "f23e8152a916f91f8530a7e314db1dcd9380a8c7c0734280867b31aa2111919a"
 
       define_method(:install) do
         bin.install "tak"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mzner/tak/releases/download/v1.0.0/tak_1.0.0_darwin_arm64.tar.gz"
-      sha256 "7197db67bcb7652a7b2c0122372c1bdedfe64eac43ea516d173a14750a7b8a04"
+      url "https://github.com/mzner/tak/releases/download/v1.1.0/tak_1.1.0_darwin_arm64.tar.gz"
+      sha256 "f6811fe446250466b1fa21c7b27bfb881611d376c06bae0b02a71c2ccb08464c"
 
       define_method(:install) do
         bin.install "tak"
@@ -29,15 +29,15 @@ class Tak < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mzner/tak/releases/download/v1.0.0/tak_1.0.0_linux_amd64.tar.gz"
-      sha256 "8914fcd5effc4dd900f235cdd903d81b0aaa33b832b37705e4eadf5cf3add2ef"
+      url "https://github.com/mzner/tak/releases/download/v1.1.0/tak_1.1.0_linux_amd64.tar.gz"
+      sha256 "f1caabcafa463bde0c3cc1946d5728098c1fcdeed04944a7c376777a0825b8fe"
       define_method(:install) do
         bin.install "tak"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mzner/tak/releases/download/v1.0.0/tak_1.0.0_linux_arm64.tar.gz"
-      sha256 "8fe73d6298966a6b1c76c35fa9f5625f46a13eda5156b0aad9a050816c6c4d06"
+      url "https://github.com/mzner/tak/releases/download/v1.1.0/tak_1.1.0_linux_arm64.tar.gz"
+      sha256 "4e379e0fb2e459be8500fbb70ad5ce8339760cd65ddc36982a39bef8ed5868ac"
       define_method(:install) do
         bin.install "tak"
       end
