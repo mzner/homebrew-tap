@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mzner/ocis-cli/releases/download/v1.0.0/ocis-cli_1.0.0_windows_amd64.zip",
+            "bin": [
+                "ocis.exe"
+            ],
+            "hash": "38c756f461af673d9a85aa95aa6a3870b79d1b5b4f4e4f0bdbd737e0df11fa80"
+        },
+        "arm64": {
+            "url": "https://github.com/mzner/ocis-cli/releases/download/v1.0.0/ocis-cli_1.0.0_windows_arm64.zip",
+            "bin": [
+                "ocis.exe"
+            ],
+            "hash": "b5bfd59b740081210b3ca0aa2b4e2b99f01a6c6de63193f8d87e9e9f8f149dec"
+        }
+    },
+    "homepage": "https://github.com/mzner/ocis-cli",
+    "license": "Apache-2.0",
+    "description": "Script-friendly CLI for oCIS-compatible servers"
+}
