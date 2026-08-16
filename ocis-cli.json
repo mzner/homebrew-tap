@@ -1,19 +1,19 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mzner/ocis-cli/releases/download/v1.1.0/ocis-cli_1.1.0_windows_amd64.zip",
+            "url": "https://github.com/mzner/ocis-cli/releases/download/v1.2.0/ocis-cli_1.2.0_windows_amd64.zip",
             "bin": [
                 "ocis.exe"
             ],
-            "hash": "e144dcf9ad59be142266571a120d320e5467bc90f0159944997bfcdecb2a947b"
+            "hash": "3c56c4eadfd4315964d44906821ea2d29e90562da62e0c12906d9e0af3926fbf"
         },
         "arm64": {
-            "url": "https://github.com/mzner/ocis-cli/releases/download/v1.1.0/ocis-cli_1.1.0_windows_arm64.zip",
+            "url": "https://github.com/mzner/ocis-cli/releases/download/v1.2.0/ocis-cli_1.2.0_windows_arm64.zip",
             "bin": [
                 "ocis.exe"
             ],
-            "hash": "efaa861be1fbd2ce8ce0395a01a9f008d1752d3cb5ca3bba6340c28357793f2e"
+            "hash": "093dfd210342836771d07878002a9456e1715d02f9796fca5f513aa5d7bfd5b9"
         }
     },
     "homepage": "https://github.com/mzner/ocis-cli",
